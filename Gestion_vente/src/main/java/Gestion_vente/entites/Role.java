@@ -1,8 +1,9 @@
 package Gestion_vente.entites;
 
 public enum Role {
+    CLIENT,
     VENDEUR,
-    DIRECTEUR,
     RESPONSABLE_STOCK,
-    ADMINISTRATEUR
+    DIRECTEUR,
+    ADMIN
 }
